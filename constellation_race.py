@@ -34,7 +34,7 @@ async def check_safety_guardrail(user_prompt):
     start = time.time()
     try:
         async with httpx.AsyncClient() as client:
-            # FIX 2: Added explicit timeout so it doesn't hang forever
+            # Added explicit timeout so it doesn't hang forever
             response = await client.post(
                 SUPPORT_NODE_URL,
                 json={
@@ -112,8 +112,8 @@ async def run_race(user_prompt):
                         return 
             else:
                 print(text, end="", flush=True)
-    
-    # FIX 3: If stream ends but safety is still thinking, WAIT for it.
+
+    # If stream ends but safety is still thinking, WAIT for it.
     if not is_safe:
         print("\n   ⏳ Stream finished, waiting for Safety Verdict...")
         verdict = await safety_task
