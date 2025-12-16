@@ -1,6 +1,5 @@
-*This is your "Engineering Diary." It documents the **how-to** and the **debugging battles** you won. This is gold for interviewers.*
+* This is your "Engineering Diary." It documents the **how-to** and the **debugging battles** you won. This is gold for interviewers. *
 
-```markdown
 # 🛠️ Setup & Engineering Guide
 
 This document details the infrastructure configuration, deployment steps, and "War Stories" (troubleshooting) encountered during the construction of Project Constellation.
