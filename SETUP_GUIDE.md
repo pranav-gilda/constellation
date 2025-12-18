@@ -1,4 +1,4 @@
-* This is your "Engineering Diary." It documents the **how-to** and the **debugging battles** you won. This is gold for interviewers. *
+* This is your "Engineering Diary." It documents the **how-to** and the **debugging battles** you won. This is gold for interviewers.
 
 # 🛠️ Setup & Engineering Guide
 
